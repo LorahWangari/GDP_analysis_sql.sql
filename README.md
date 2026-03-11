@@ -31,6 +31,7 @@ CREATE DATABASE GDP_Analysis;
 USE GDP_Analysis;
 
 
+
  =====================================================
    2. CREATE RAW TABLE
    This stores the original imported dataset
@@ -45,11 +46,13 @@ CREATE TABLE gdp_raw (
 );
 
 
-   3. CHECK IMPORTED DATA
+ 
 ===================================================== 
+  3. CHECK IMPORTED DATA
 
 SELECT TOP 100 *
 FROM gdp_raw;
+
 
 
  =====================================================
